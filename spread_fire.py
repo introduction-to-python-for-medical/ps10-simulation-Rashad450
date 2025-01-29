@@ -1,7 +1,7 @@
 import copy
 def spread_fire(grid):
     """Update the forest grid based on fire spreading rules."""
-    grid_size = len(grid)
+    grid_size = len(grid) 
     new_grid = copy.deepcopy(grid)
     
     for i in range(grid_size):
